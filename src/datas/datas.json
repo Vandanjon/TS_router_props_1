@@ -1,0 +1,37 @@
+[
+  {
+    "id": 1,
+    "name": "Lion",
+    "image": "http://localhost:5173/src/assets/lion.jpg",
+    "description": "Le lion est un grand félin originaire d'Afrique et d'Inde.",
+    "anecdote": "Les lions sont les seuls félins qui vivent en groupes, appelés fiertés."
+  },
+  {
+    "id": 2,
+    "name": "Elephant",
+    "image": "http://localhost:5173/src/assets/elephant.jpg",
+    "description": "L'éléphant est le plus grand animal terrestre.",
+    "anecdote": "Les éléphants peuvent communiquer sur de longues distances en utilisant des sons de basse fréquence."
+  },
+  {
+    "id": 3,
+    "name": "Giraffe",
+    "image": "http://localhost:5173/src/assets/giraffe.jpg",
+    "description": "La girafe est le plus grand animal terrestre.",
+    "anecdote": "Les girafes ont un système circulatoire unique pour pomper le sang jusqu'à leur cerveau."
+  },
+  {
+    "id": 4,
+    "name": "Penguin",
+    "image": "http://localhost:5173/src/assets/penguin.jpg",
+    "description": "Les pingouins sont un groupe d'oiseaux aquatiques incapables de voler.",
+    "anecdote": "Les pingouins peuvent boire de l'eau salée car ils ont une glande spéciale qui filtre le sel."
+  },
+  {
+    "id": 5,
+    "name": "Koala",
+    "image": "http://localhost:5173/src/assets/koala.jpg",
+    "description": "Le koala est un marsupial originaire d'Australie.",
+    "anecdote": "Les koalas dorment jusqu'à 20 heures par jour pour économiser de l'énergie."
+  }
+]

@@ -1,9 +1,14 @@
+import AnimalsList from "../components/AnimalsList";
+import animals from "../datas/datas.json";
+
 export default function Home() {
   return (
-    <div id="HomeContainer">
+    <div id="home-container">
       <h1>Home</h1>
 
-      <p>Home Page</p>
+      <AnimalsList animals={animals} />
+
+      <cite>All images from Unsplash</cite>
     </div>
   );
 }
