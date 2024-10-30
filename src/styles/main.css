@@ -41,3 +41,30 @@ h1 {
   height: auto;
   object-fit: cover;
 }
+
+#animal-details-container {
+  padding: 20px;
+  text-align: center;
+  height: 80vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+#animal-details-container section {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  figure {
+    margin: auto;
+    max-width: 40vw;
+  }
+}
+
+#animal-details-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
