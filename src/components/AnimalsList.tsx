@@ -1,9 +1,16 @@
-export default function AnimalsList() {
-  return (
-    <div id="AnimalsListContainer">
-      <h1>AnimalsList</h1>
+import { Animal } from "../utils/types";
+import AnimalCard from "./AnimalCard";
 
-      <p>AnimalsList Page</p>
+type AnimalsListProps = {
+  animals: Animal[];
+};
+
+export default function AnimalsList({ animals }: AnimalsListProps) {
+  return (
+    <div id="animals-list-container">
+      {animals?.map((animal) => (
+        <AnimalCard key={animal.id} {...animal} />
+      ))}
     </div>
   );
 }
